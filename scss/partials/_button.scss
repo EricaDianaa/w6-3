@@ -1,0 +1,6 @@
+@mixin button{
+    border-radius: 20px;
+    border: 2px solid $blue;
+    background-color: $aqua;
+  &:hover{color:$blue}
+}

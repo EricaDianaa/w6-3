@@ -1,0 +1,4 @@
+main{
+    margin-top: $mt3;
+    @include flex (row,space-around,center,20px);
+}

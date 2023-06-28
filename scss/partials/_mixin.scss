@@ -1,0 +1,23 @@
+// H1
+@mixin title {
+    color: rgb(87, 89, 231);
+}
+
+// @mixin floating {
+// // border-radius
+// // }
+
+@mixin img{
+    width: 80px;
+    margin: 30px;
+    border-radius: 16px;
+    border: 2px solid lawngreen;
+}
+
+@mixin img1{
+    width: 80px;
+    margin: 30px;
+    border-radius: 16px;
+    border: 2px solid $blue;
+    box-shadow:5px 5px 15px 5px #000000;
+}

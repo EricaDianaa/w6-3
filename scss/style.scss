@@ -1,0 +1,19 @@
+@import "partials/reset";
+@import "partials/variabili";
+@import "partials/colori";
+@import "partials/mixin";
+@import "partials/font";
+@import "partials/flex";
+@import "partials/nav";
+@import "partials/button";
+@import "partials/header";
+@import "partials/main";
+
+
+h1{
+    @include title();
+margin-top: $mt;
+}
+
+
+

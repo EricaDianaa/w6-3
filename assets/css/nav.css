@@ -1,0 +1,20 @@
+nav {
+  height: 100px;
+  border: 2px solid lawngreen;
+  background-color: aquamarine;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+img {
+  width: 80px;
+  margin: 30px;
+  border-radius: 16px;
+  border: 2px solid lawngreen;
+}/*# sourceMappingURL=nav.css.map */

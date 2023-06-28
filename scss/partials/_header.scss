@@ -1,0 +1,26 @@
+p, button{
+    margin-top: $mt1;
+}
+header{
+    background-image: url(https://www.immobiliare.it/news/app/uploads/2023/03/colori.jpeg);
+    margin-top: $mt;
+    border: $border blue;
+    border-radius: $radius;
+    padding: $p;
+  @include flex(column,center,center,0)
+}
+button{
+    @include button()
+}
+ @mixin header-main{
+    @include flex(row,center,center,0);
+    border: $border;
+}
+.h1p{
+    @include header-main();
+background-color:$aqua;
+}
+
+header img{
+    @include img1
+}

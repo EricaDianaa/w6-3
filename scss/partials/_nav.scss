@@ -1,0 +1,26 @@
+
+nav{ 
+      @include flex (row,space-around,center,10px);
+    height: 100px;
+    border: 2px solid lawngreen;
+    background-color: aquamarine;
+ 
+  }
+li a{
+  color: blue;
+ text-decoration:none;
+  &:hover {
+      color: red;
+     }
+}
+
+ul{ 
+    @include flex (row,space-around,center,30px);
+     list-style-type: none;
+    
+}
+
+nav img{
+  @include img()
+}
+
