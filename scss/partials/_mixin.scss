@@ -3,9 +3,6 @@
     color: rgb(87, 89, 231);
 }
 
-// @mixin floating {
-// // border-radius
-// // }
 
 @mixin img{
     width: 80px;
@@ -14,7 +11,7 @@
     border: 2px solid lawngreen;
 }
 
-@mixin img1{
+@mixin img1(){
     width: 80px;
     margin: 30px;
     border-radius: 16px;
